@@ -1,0 +1,61 @@
+
+.card {
+    box-shadow: 5px 5px 5px 5px rgba(0,0,0,0.2);
+    width: 50%;
+    margin: auto;
+    margin-top: 100px;
+  }
+.heading{
+    display: block;
+    padding: 30px;
+    background-color: rgb(88, 88, 236);
+    font-size: 34px;
+    text-transform: capitalize;
+    text-align: center;
+    color: white;
+}
+.player1{
+    padding: 10px;
+}
+
+.player1>p{
+    font-size: 25px;
+}
+.player2{
+    padding: 10px;
+}
+.player2>p{
+    font-size: 25px;
+}
+
+.flex-row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+i{
+    font-size: 30px;
+    padding-bottom: 20px;
+}
+.refresh{
+    padding: 10px;
+}
+.resultDisplay{
+    text-align: center;
+    display: inline;
+}
+
+.result{
+    margin-top: 0px;
+    padding: 10px;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 300;
+}
+.player1 > .flex-row> i{
+    color: blue;
+}
+.player2 > .flex-row> i{
+    color: red;
+}
